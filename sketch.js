@@ -2,7 +2,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
    //noStroke();
   background(224, 255, 255);
-  for (var i=0; i<=random(30,400); i++){
+  for (var i=0; i<=random(50,400); i++){
     let x=random(width);     
     let y=random(height);
     let dc=random(15,30);
@@ -32,7 +32,7 @@ function draw() {
 function mouseClicked(){
    //noStroke();
   background(224, 255, 255);
-  for (var i=0; i<=random(30,400); i++){
+  for (var i=0; i<=random(50,400); i++){
     let x=random(width);     
     let y=random(height);
     let dc=random(15,30);
